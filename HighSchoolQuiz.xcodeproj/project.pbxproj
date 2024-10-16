@@ -14,6 +14,9 @@
 		33420EF92CC04956007981E3 /* HighSchoolQuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33420EF82CC04956007981E3 /* HighSchoolQuizTests.swift */; };
 		33420F032CC04956007981E3 /* HighSchoolQuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33420F022CC04956007981E3 /* HighSchoolQuizUITests.swift */; };
 		33420F052CC04956007981E3 /* HighSchoolQuizUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33420F042CC04956007981E3 /* HighSchoolQuizUITestsLaunchTests.swift */; };
+		33420F122CC04A25007981E3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33420F112CC04A25007981E3 /* HomeView.swift */; };
+		33420F142CC04A3D007981E3 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33420F132CC04A3D007981E3 /* QuizView.swift */; };
+		33420F162CC04A4F007981E3 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33420F152CC04A4F007981E3 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		33420EFE2CC04956007981E3 /* HighSchoolQuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HighSchoolQuizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33420F022CC04956007981E3 /* HighSchoolQuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighSchoolQuizUITests.swift; sourceTree = "<group>"; };
 		33420F042CC04956007981E3 /* HighSchoolQuizUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighSchoolQuizUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		33420F112CC04A25007981E3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		33420F132CC04A3D007981E3 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		33420F152CC04A4F007981E3 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 			children = (
 				33420EE72CC04953007981E3 /* HighSchoolQuizApp.swift */,
 				33420EE92CC04953007981E3 /* ContentView.swift */,
+				33420F112CC04A25007981E3 /* HomeView.swift */,
+				33420F132CC04A3D007981E3 /* QuizView.swift */,
+				33420F152CC04A4F007981E3 /* SettingsView.swift */,
 				33420EEB2CC04956007981E3 /* Assets.xcassets */,
 				33420EED2CC04956007981E3 /* Preview Content */,
 			);
@@ -257,6 +266,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33420F162CC04A4F007981E3 /* SettingsView.swift in Sources */,
+				33420F122CC04A25007981E3 /* HomeView.swift in Sources */,
+				33420F142CC04A3D007981E3 /* QuizView.swift in Sources */,
 				33420EEA2CC04953007981E3 /* ContentView.swift in Sources */,
 				33420EE82CC04953007981E3 /* HighSchoolQuizApp.swift in Sources */,
 			);
